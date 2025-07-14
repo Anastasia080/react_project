@@ -1,0 +1,33 @@
+.side-menu {
+  position: relative;
+  background-color: #2378FC;
+  min-height: 80vh;
+  height: 426px;
+  color: white;
+  width: 100vw;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  padding: 20px 16px;
+  opacity: 1;
+  z-index: 1;
+}
+
+.side-menu-list {
+  display: grid;
+  grid-template-columns: repeat(4, 350px);
+  gap: 25px;
+  justify-content: center;
+  text-align: left;
+  margin-left: 170px;
+}
+.side-menu-list > div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+}
+.side-menu-list > div a {
+  display: inline;
+  width: auto;
+  padding: 2px 0; 
+}
