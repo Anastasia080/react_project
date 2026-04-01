@@ -1,0 +1,90 @@
+.about_complex {
+  position: relative;
+  min-height: 100vh;
+  color: white;
+  width: 100vw;
+  box-sizing: border-box;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.about_complex-background {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: url('../../../assets/ekspoforum_2.jpg') center/cover no-repeat;
+  z-index: -1;
+  opacity: 0.3;
+}
+
+.about_complex_content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 16px;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.about_complex_main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  margin-top: auto;
+}
+
+.about_complex_title {
+  text-align: left;
+  margin-bottom: 0;
+  align-self: center; 
+  padding-top: 0;
+  flex: 1;
+  max-width: 700px;
+}
+
+.about_complex_block-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 280px);
+  gap: 30px;
+  align-items: center;
+  align-self: center;
+}
+
+.block-item_about_complex {
+  width: 255px;
+  height: 175px;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  transition: transform 0.2s ease;
+}
+
+.block-item_about_complex:hover {
+  transform: scale(1.05);
+}
+
+.block-item_about_complex h2 {
+  font-size: 40px;
+  margin: 0;
+  font-weight: 550;
+}
+
+.block-item_about_complex h3 {
+  font-size: 20px;
+  margin: 0;
+  font-weight: 500;
+}
+
+.block-item_about_complex1 { background-color: #2378FC; }
+.block-item_about_complex2 { background-color: #30BCC9; }
+.block-item_about_complex3 { background-color: #FFC41E; }
+.block-item_about_complex4 { background-color: #F6404F; }

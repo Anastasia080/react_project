@@ -1,0 +1,90 @@
+.infrastructure {
+  position: relative;
+  background-color: #FFC41E;
+  min-height: 100vh;
+  color: black;
+  width: 100vw;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  padding: 20px 110px;
+  opacity: 1;
+  z-index: 1;
+  text-align: left;
+}
+
+.infastruct_title{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0px;
+}
+
+.infrastruct-block {
+  transition: transform 0.2s ease
+}
+.infrastruct-block:hover{
+  transform: scale(1.05);
+}
+
+.infrastruct-block-link {
+  text-align: left;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+  color: black;
+  text-decoration: none;
+  line-height: 1.0;
+  height: 100%;
+  width: 100%;
+}
+
+.infrastruct-block a {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+.infrastruct-block a:hover {
+  filter: drop-shadow(0 0 2em #ec8805);
+}
+.infrastruct-block h3{
+  color: red;
+  margin: 0;
+  cursor: pointer;
+}
+.infrastruct-block h5,.infrastruct-block h6{
+  cursor: pointer;
+}
+.infrastruct_same_size{
+  width: 360px;
+  height: 250px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.infrastruct_same_size img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.infrastruct-block_box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-right: 50px;
+  justify-content: right;
+  align-items: center;
+}
+
+.infrastruct-block h6,
+.infrastruct-block h3,
+.infrastruct-block h5 {
+  flex: 1;
+  margin: 5px 0;
+}
+
+.infrastruct-block a::after {
+  display: none;
+}
